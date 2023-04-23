@@ -16,7 +16,7 @@
   pointer-events: none;
 }
 
-.main:before {
+/* .main:before {
   background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
   position: absolute;
   content: "";
@@ -36,7 +36,7 @@
   top: 0;
   opacity: 0.4;
   filter: invert(1);
-}
+} */
 
 .gradient {
   height: fit-content;
@@ -92,7 +92,7 @@
 }
 
 .url_input {
-  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-medium focus:border-black focus:outline-none focus:ring-0;
 }
 
 .submit_btn {

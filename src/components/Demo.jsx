@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import { copy, linkIcon, loader, tick } from "../assets";
+// import { copy, linkIcon, loader, tick } from "../assets";
+import loader from '../assets/loader.jpg';
+import link from '../assets/link.jpg';
+import tick from '../assets/tick.jpg';
+import copy from '../assets/copy.jpg';
 import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {
@@ -68,7 +72,7 @@ const Demo = () => {
           onSubmit={handleSubmit}
         >
           <img
-            src={linkIcon}
+            src={link}
             alt='link-icon'
             className='absolute left-0 my-2 ml-3 w-5'
           />
